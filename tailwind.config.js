@@ -16,26 +16,17 @@ module.exports = {
       },
     },
     extend: {
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        custom: "1fr 30%",
+
+        // Complex site-specific column configuration
+        footer: "200px minmax(900px, 1fr) 100px",
+      },
       fontFamily: {
         "blog-bold": ["Blog_Bold", "sans-serif"],
         "blog-medium": ["Blog_Medium", "sans-serif"],
         "blog-light": ["Blog_Light", "sans-serif"],
-        sans: [
-          "Blog_Medium",
-          "system-ui",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          '"Segoe UI"',
-          "Roboto",
-          '"Helvetica Neue"',
-          "Arial",
-          '"Noto Sans"',
-          "sans-serif",
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-          '"Noto Color Emoji"',
-        ],
       },
       background: {
         light_grey: "#F6F5F4",
@@ -54,7 +45,7 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         text_dark_1: "rgb(5, 5, 5)",
-        text_grey_1: "rgba(0,0,0,.6)",
+        text_grey_1: "rgba(0, 0, 0, 0.7)",
         light_grey: "#F6F5F4",
         green_1: "#1A8917",
 
