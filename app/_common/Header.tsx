@@ -9,7 +9,6 @@ type HeaderProps = {
   sidebar?: boolean,
   setSidebar: (val: boolean) => void;
 }
-const headerlist = ["Product", "Download", "Solutions", "Resources", 'Pricing'];
 export const Header: React.FC<HeaderProps> = ({ sidebar, setSidebar }) => {
   return (
     <div className="py-6 pb-5 border-b border-[rgba(0,0,0,.4)] sticky top-0 bg-white backdrop-filter backdrop-blur-md">
