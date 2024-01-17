@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ sidebar, setSidebar }) => {
 
         </div>
         <div className="flex-1 md:flex hidden item-center justify-end">
-          <ul className="flex items-center justify-between gap-x-3 sm:gap-x-10">
+          <ul className="flex items-center justify-between gap-x-3 sm:gap-x-6">
             <li className="text-base cursor-pointer font-blog-light hover:bg-gray-100 py-1 px-3 rounded-md font-medium">
               My Story
             </li>

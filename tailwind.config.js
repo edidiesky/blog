@@ -19,20 +19,20 @@ module.exports = {
       gridTemplateColumns: {
         // Simple 16 column grid
         custom: "1fr 30%",
-
-        // Complex site-specific column configuration
-        footer: "200px minmax(900px, 1fr) 100px",
       },
+      // Blog_Styles
       fontFamily: {
         "blog-bold": ["Blog_Bold", "sans-serif"],
         "blog-medium": ["Blog_Medium", "sans-serif"],
         "blog-light": ["Blog_Light", "sans-serif"],
+        "blog-styles": ["Blog_Styles", "sans-serif"],
       },
       background: {
         light_grey: "#F6F5F4",
       },
       maxWidth: {
         custom: "1204px",
+        custom_2: "804px",
       },
       boxShadow: {
         custom:

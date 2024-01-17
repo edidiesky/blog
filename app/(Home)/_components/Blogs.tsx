@@ -76,7 +76,7 @@ export const Blogs = () => {
               })
             }
           </div>
-          <div className="flex px-0 py-6 md:px-4 relative top-[0] md:sticky md:top-[10%] flex-col gap-20">
+          <div className="flex px-0 py-6 md:px-4 relative top-[0] md:sticky md:top-[10%] flex-col gap-12">
             <div className="flex flex-col gap-3 gap-y-6">
               <h5 className="text-lg font-bold font-blog-bold text-text_dark_1">Discover more of what matters to you</h5>
               <div className="flex flex-wrap font-blog-light font-light text-sm text-text_dark_1 items-center gap-2">
@@ -98,8 +98,12 @@ export const Blogs = () => {
                 </span>
               </div>
             </div>
-            <div className="flex font-blog-light font-light text-sm text-text_grey_1 items-center gap-8">
+            <div className="flex flex-wrap  font-blog-light font-light text-sm text-text_grey_1 items-center gap-8">
               <h4>Help</h4>
+              <h4>Status</h4>
+              <h4>About Me </h4>
+              <h4>Status</h4>
+              <h4>About Me </h4> 
               <h4>Status</h4>
               <h4>About Me </h4>
             </div>

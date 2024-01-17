@@ -86,3 +86,8 @@
   font-family: "Blog_Light";
   src: url("../assets/fonts/sohne-400-normal.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Blog_Styles";
+  src: url("../assets/fonts/source-serif-pro-400-normal.ttf") format("truetype");
+}
