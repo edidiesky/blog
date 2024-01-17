@@ -43,7 +43,7 @@ export const Blogs = () => {
           <div className="flex flex-col min-h-screen gap-12">
             {
               data?.map((x?: any, index?: any) => {
-                return <div className="w-full pb-12 gap-y-12 border-b border-[rgba(0,0,0,.2)] flex flex-col-reverse md:flex-row items-start md:items-center gap-2">
+                return <div key={index} className="w-full pb-12 gap-y-12 border-b border-[rgba(0,0,0,.2)] flex flex-col-reverse md:flex-row items-start md:items-center gap-2">
                   <div className="flex w-full flex-col gap-3">
                     <h3 className="text-xl font-blog-bold font-bold text-text_dark_1">
                       {x?.title}
