@@ -36,9 +36,10 @@ const Sidebar: React.FC<sidebarProps> = ({ active, sidebar, setSidebar }) => {
 
                 <ul className="flex flex-col w-full">
                     {
-                        sidebarData.map((x) => {
+                        sidebarData.map((x?: any, key?: any) => {
                             return (
                                 <div
+                                    key={key}
                                     className="text-white flex items-center gap-2 w-full font-blog-light font-light hover:bg-[rgba(255,255,255,.1)] py-6 px-8 text-[14px]"
                                 >
                                     {<span>{x.title}</span>}
